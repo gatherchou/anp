@@ -16,6 +16,7 @@ RUN apk add --no-cache nginx \
                        php7-fpm \
                        php7-openssl \
                        php7-pdo_mysql \
+                       php7-mysqli \
                        php7-mbstring \
                        php7-tokenizer \
                        php7-xml \

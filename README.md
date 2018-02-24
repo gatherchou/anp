@@ -4,4 +4,4 @@
 
 **用法**
 
-    docker run -v ${your_project_path}:/www -p ${your_port}:80 -d gatherchou/anp"# anp" 
+    docker run -v ${your_project_path}:/nginx/htdocs -p ${your_port}:80 -d gatherchou/anp"

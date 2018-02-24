@@ -31,6 +31,7 @@ RUN apk add --no-cache nginx \
                        php7-iconv \
                        php7-mcrypt \
                        libbsd \
+ && mkdir -p /run/nginx
  && mkdir -p /nginx/log /nginx/htdocs \
  && chown -R nginx:nginx /nginx
  

@@ -60,5 +60,5 @@ ADD startup.sh /root/startup.sh
 RUN chmod +x /root/startup.sh
 
 EXPOSE 80
-WORKDIR /www
+WORKDIR /nginx/htdocs
 CMD ["/root/startup.sh"]
